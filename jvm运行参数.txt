@@ -1,0 +1,6 @@
+JVM的运行时参数：-Xms为执行单元内存的1/4, -Xmx为执行单元内存的3/4，-XX:PermSize为执行单元内存的1/8， -XX:MaxPermSize为执行单元内存1/2 。可以通过配置文件自定义JVM的参数
+
+-Xms(最小堆内存,java运行时的内存)
+-Xms(最大堆内存,java运行时的内存)
+-XX:PermSize(最小非堆内存,除了java运行的程序的内存之外的)
+-XX:MaxPermSize(最大非堆内存,除了java运行的程序的内存之外的)
